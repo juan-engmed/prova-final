@@ -11,4 +11,6 @@
 
 ## Modelagem ER - Banco de Dados
 
-![Diagrama ER de Banco de Dados.png](Relato%CC%81rio%20Rastreamento%20Life%20Web%2070a18559731a4606b6e5449d60c46bcb/Diagrama_ER_de_Banco_de_Dados.png)
+<p align="center">
+<img align="center" width="100%" src="https://ibb.co/c2p0rks" />
+</a></p>
