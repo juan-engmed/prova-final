@@ -12,5 +12,5 @@
 ## Modelagem ER - Banco de Dados
 
 <p align="center">
-<img align="center" width="100%" src="https://ibb.co/c2p0rks" />
+<img align="center" width="100%" src="https://i.ibb.co/p4scLbk/Diagrama-ER-de-Banco-de-Dados.png" />
 </a></p>
