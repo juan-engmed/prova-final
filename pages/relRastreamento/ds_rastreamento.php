@@ -2,8 +2,8 @@
 
 $where = '';
 
-if(!empty($_REQUEST['nome'])) {
-    $where = "WHERE f.nome LIKE '%{$_REQUEST['nome']}%'";
+if(!empty($_REQUEST['placa'])) {
+    $where = "WHERE v.placa LIKE '%{$_REQUEST['placa']}%'";
 }
 
 $db = new Database();

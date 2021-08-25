@@ -20,6 +20,8 @@ Cmp.RelRastreamento = function() {
                 }
             });
 
+            
+
             Cmp.createGrid({
                 id: 'gridDadosRastreamento',
                 renderTo: '#divCmpGridRastreamento',
