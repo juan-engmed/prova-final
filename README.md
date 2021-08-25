@@ -15,7 +15,7 @@
 </a></p>
 
 ### Estrutura MYSQL
-[Download estrutura.sql](https://drive.google.com/file/d/17pgSo6FEarCwwNvkeRrvu6BqXh73e9EM/view?usp=sharing)
+- [Download estrutura.sql](https://drive.google.com/file/d/17pgSo6FEarCwwNvkeRrvu6BqXh73e9EM/view?usp=sharing)
 
 ## Preview Sistema
 
