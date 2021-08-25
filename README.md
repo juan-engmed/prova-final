@@ -20,7 +20,7 @@
 ## Preview Sistema
 
 <p align="center">
-<img align="center" width="100%" src="https://i.ibb.co/qgfDbWy/print-sistema.png" />
+<img align="center" width="100%" src="https://i.ibb.co/rvSHQcB/print-sistema.png" />
 </a></p>
 
 > © Copyright 1994-2021 [Life Equipamentos](http://www.lifeonline.com.br/)
