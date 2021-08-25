@@ -190,6 +190,7 @@ var Cmp = {
             table.DataTable().destroy();
 
             tbody.html('');
+            console.log(data);
 
             data.forEach(function(row) {
                 var rTr = $('<tr>');

@@ -145,8 +145,6 @@ Cmp.RelRastreamento = function() {
 
         buscarData: function() {
             Cmp.showLoading();
-                    
-
             Cmp.request({
                 url: 'index.php?mdl=relRastreamento&file=ds_rastreamento.php',
                 params: {
