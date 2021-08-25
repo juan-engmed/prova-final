@@ -11,7 +11,7 @@
 ## Modelagem ER - Banco de Dados
 
 <p align="center">
-<img align="center" width="100%" src="https://i.ibb.co/p4scLbk/Diagrama-ER-de-Banco-de-Dados.png" />
+<img align="center" width="100%" src="https://i.ibb.co/ZWdd4mT/Diagrama-ER-de-banco-de-dados-p-de-galinha.png" />
 </a></p>
 
 ## Estrutura MySQL
