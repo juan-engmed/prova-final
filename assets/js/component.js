@@ -236,6 +236,10 @@ var Cmp = {
         return new Cmp.input(config);
     },
 
+    createInputDate: function(config) {
+        return new Cmp.inputDate(config);
+    },
+
     createGrid: function(config) {
         return new Cmp.grid(config);
     }

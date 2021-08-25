@@ -1,11 +1,11 @@
 <div class="row">
     <div class="col-12">
-        <div class="jumbotron">
-            <div id="divInputNome"></div>
+        <div class="jumbotron shadow">
+        <i class="fas fa-user person-ico"></i><div id="divInputNome"></div>
             <div id="divBtnConsultar"></div>
         </div>
 
-        <div id="divCmpGridFuncionario"></div>
+        <div class="shadow" id="divCmpGridFuncionario"></div>
     </div>
 </div>
 
@@ -28,6 +28,13 @@
         display: inline-block;
         width: 100%;
         margin-bottom: 20px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .person-ico{
+        width: 30px;
     }
 </style>
 

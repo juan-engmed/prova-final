@@ -7,7 +7,7 @@ Cmp.RelVeiculo = function() {
             Cmp.createInput({
                 id: 'inputPlaca',
                 renderTo: '#divInputPlaca',
-                label: 'Placa do veículo',
+                label: 'Placa do Veículo',
                 width: '200px'
             });
 
@@ -26,15 +26,16 @@ Cmp.RelVeiculo = function() {
                 header: [
                     {
                         text: 'Nome',
-                        field: 'nome'
+                        field: 'nome',
+                        width: '200px'
                     }, {
                         text: 'Placa',
                         field: 'placa',
-                        width: 150
+                        width: '200px'
                     }, {
                         text: 'Vel. Max.',
                         field: 'vel_maxima',
-                        width: 150
+                        width: '150px'
                     }
                 ]
             });

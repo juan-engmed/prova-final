@@ -10,6 +10,11 @@ if(!empty($_REQUEST['nome'])) {
     $where = "WHERE f.nome LIKE '%{$_REQUEST['nome']}%'";
 }
 
+if(!empty($_REQUEST['data1']) && !empty($_REQUEST['data2'])) {
+    $where = "WHERE r.data_registrada >= '{$_REQUEST['data1']} 00:00:00' AND r.data_registrada <= '{$_REQUEST['data2']} 23:59:59'";
+}
+
+
 $db = new Database();
 
 if($db->connect()) {

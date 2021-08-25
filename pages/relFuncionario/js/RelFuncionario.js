@@ -7,7 +7,7 @@ Cmp.RelFuncionario = function() {
             Cmp.createInput({
                 id: 'inputNome',
                 renderTo: '#divInputNome',
-                label: 'Nome do funcionário',
+                label: 'Nome do Funcionário',
                 width: '300px'
             });
 
@@ -26,11 +26,12 @@ Cmp.RelFuncionario = function() {
                 header: [
                     {
                         text: 'Nome',
-                        field: 'nome'
+                        field: 'nome',
+                        width: '200px'
                     }, {
                         text: 'Função',
                         field: 'funcao',
-                        width: 200
+                        width: '200px'
                     }
                 ]
             });

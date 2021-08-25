@@ -1,11 +1,11 @@
 <div class="row">
     <div class="col-12">
-        <div class="jumbotron">
-            <div id="divInputPlaca"></div>
+        <div class="jumbotron shadow">
+        <i class="fas fa-truck object-ico"></i><div id="divInputPlaca"></div>
             <div id="divBtnConsultar"></div>
         </div>
 
-        <div id="divCmpGridVeiculo"></div>
+        <div class="shadow" id="divCmpGridVeiculo"></div>
     </div>
 </div>
 
@@ -29,7 +29,13 @@
         width: 100%;
         margin-bottom: 20px;
         text-align: center;
+        padding: 10px;
+        border-radius: 5px;
         
+    }
+
+    .object-ico{
+        width: 30px;
     }
 
 

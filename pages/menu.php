@@ -1,5 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-    <a class="navbar-brand" href="index.php">LifeWeb</a>
+    <a class='p-2' href="index.php"><img id='logo' src="../assets/img/favicon.png" alt=""></a>
+    <a class="navbar-brand" href="index.php">LifeWeb</a>    
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,7 +13,7 @@
                 <a class="nav-link dropdown-toggle" href="#" id="menu-relatorios" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Relatórios</a>
                 <div class="dropdown-menu" aria-labelledby="menu-relatorios">
                     <a class="dropdown-item" href="index.php?page=relVeiculo">Veículos</a>
-                    <a class="dropdown-item" href="index.php?page=relFuncionario">Funcionário</a>
+                    <a class="dropdown-item" href="index.php?page=relFuncionario">Funcionários</a>
                     <a class="dropdown-item" href="index.php?page=relRastreamento">Veículos acima da velocidade</a>
                 </div>
             </li>
