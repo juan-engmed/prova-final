@@ -5,7 +5,6 @@
 - PHP
 - JavaScript
 - CSS 3
-
 - MySQL
 - HTML 5
 
@@ -14,3 +13,11 @@
 <p align="center">
 <img align="center" width="100%" src="https://i.ibb.co/p4scLbk/Diagrama-ER-de-Banco-de-Dados.png" />
 </a></p>
+
+## Preview Sistema
+
+<p align="center">
+<img align="center" width="100%" src="https://i.ibb.co/qgfDbWy/print-sistema.png" />
+</a></p>
+
+> © Copyright 1994-2021 Life Equipamentos
