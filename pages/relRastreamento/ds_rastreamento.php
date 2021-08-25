@@ -6,6 +6,10 @@ if(!empty($_REQUEST['placa'])) {
     $where = "WHERE v.placa LIKE '%{$_REQUEST['placa']}%'";
 }
 
+if(!empty($_REQUEST['nome'])) {
+    $where = "WHERE f.nome LIKE '%{$_REQUEST['nome']}%'";
+}
+
 $db = new Database();
 
 if($db->connect()) {

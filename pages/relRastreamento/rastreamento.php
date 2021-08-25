@@ -22,7 +22,7 @@
             <div class="tab-pane fade" id="funcionario" role="tabpanel" aria-labelledby="profile-tab">
             <div id="divInputNome"></div>
             <div id="divBtnConsultarFuncionario"></div>   
-            ...</div>
+            </div>
             <div class="tab-pane fade" id="date_time" role="tabpanel" aria-labelledby="contact-tab">
             ...</div>
         </div>
@@ -41,14 +41,14 @@
         padding: 32px;
     }
 
-    #divInputPlaca,
-    #divBtnConsultar {
+    #divInputPlaca, #divInputNome,
+    #divBtnConsultar, #divBtnConsultarFuncionario {
         display: inline-block;
         vertical-align: top;
         
     }
 
-    #divBtnConsultar {
+    #divBtnConsultar, #divBtnConsultarFuncionario {
         margin-top: 32px;
         margin-left: 10px;
     }

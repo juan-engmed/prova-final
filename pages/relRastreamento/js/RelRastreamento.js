@@ -20,6 +20,22 @@ Cmp.RelRastreamento = function() {
                 }
             });
 
+            Cmp.createInput({
+                id: 'inputNome',
+                renderTo: '#divInputNome',
+                label: 'Nome do funcionário',
+                width: '300px'
+            });
+
+            Cmp.createButton({
+                id: 'btnBuscarFuncionario',
+                renderTo: '#divBtnConsultarFuncionario',
+                text: 'Buscar',
+                handler: function() {
+                    private.buscarFuncionario();
+                }
+            });
+
             
 
             Cmp.createGrid({
@@ -70,6 +86,25 @@ Cmp.RelRastreamento = function() {
                 url: 'index.php?mdl=relRastreamento&file=ds_rastreamento.php',
                 params: {
                     placa: Cmp.get('inputPlaca').getValue()
+                },
+                success: function(res) {
+                    Cmp.hideLoading();
+                    if(res.status == 'success') {
+                        Cmp.get('gridDadosRastreamento').loadData(res.data);
+                    } else {
+                        Cmp.showErrorMessage(res.message || 'Ocorreu um erro na requisição');
+                    }
+                }
+            });
+        },
+
+        buscarFuncionario: function() {
+            Cmp.showLoading();
+
+            Cmp.request({
+                url: 'index.php?mdl=relRastreamento&file=ds_rastreamento.php',
+                params: {
+                    nome: Cmp.get('inputNome').getValue()
                 },
                 success: function(res) {
                     Cmp.hideLoading();

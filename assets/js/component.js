@@ -106,6 +106,44 @@ var Cmp = {
         }
     },
 
+    inputDate: function(config) {
+        if (config.id == undefined || config.id == '') {
+            return;
+        }
+
+        Cmp.componentList.push({
+            id: config.id,
+            cmp: this
+        });
+
+        var mainEl = $('<div>', { class: 'form-group', width: config.width || '100%' });
+
+        if(config.label != undefined) {
+            mainEl.append(
+                $('<label>', { for: config.id }).html(config.label)
+            );
+        }
+
+        var input = $('<input>', { type: 'date', id: config.id, class: 'form-control' });
+
+        mainEl.append(input);
+
+        if(config.renderTo) {
+            $(config.renderTo).append(mainEl);
+        }
+
+        this.getValue = function() {
+            var val = input.val();
+            return val == '' ? null : val;
+        }
+
+        this.destroy = function() {
+            mainEl.remove();
+        }
+    },
+
+    
+
     grid: function(config) {
         if (config.id == undefined || config.id == '') {
             return;
